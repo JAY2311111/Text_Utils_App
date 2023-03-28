@@ -48,7 +48,7 @@
         <Route exact path="/"  element={<TextForm  heading = {"Enter your text"} showAlert={showAlert}/>} />
          <Route exact path="/home"  element={<TextForm  heading = {"Enter your text"} showAlert={showAlert}/>} />
          <Route exact path="/about" element={  <About />} />
-         <Route exact path="*" element={ <Error/>} />
+         
              {/* <TextForm  heading = {"Enter your text"} showAlert={showAlert}/> */}
         </Routes>
       </Router>
